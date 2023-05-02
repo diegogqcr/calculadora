@@ -1,5 +1,5 @@
 import './App.css';
-import logoDGQ from './images/dgq.png'
+import logoDGQ from './images/GAMBO6.png'
 import Boton from './components/Boton'
 import Pantalla from './components/Pantalla'
 import BotonClear from './components/BotonClear';
@@ -17,6 +17,7 @@ function App() {
   const calcularResultado = () => {
     if (input){
       setInput(evaluate(input));
+
     } else {
       alert("Por favor ingrese valores para realizar los cálculos.");
     }
@@ -33,7 +34,7 @@ function App() {
         />
       </div>
       <div className='contenedor-calculadora'>
-        <Pantalla input={input}/>
+        <Pantalla input={input} />
         <div className='fila'>
           <Boton manejarClic={agregarInput}>1</Boton>
           <Boton manejarClic={agregarInput}>2</Boton>

@@ -6,7 +6,7 @@
   justify-content: center;
   font-weight: bold;
   font-size: 38px;
-  background-color: #1b1b32;
+  background-color: #F9982F;
   color: white;
   border-radius: 25px;
   border: 2px solid white;
@@ -16,11 +16,11 @@
 }
 
 .boton-contenedor:hover{
-  background-color: #c018e2;
+  background-color: #E37239;
 
 }
 .operador {
-  background-color: #015c24;
+  background-color: #2A9D8F;
 }
 
 .operador:hover{
